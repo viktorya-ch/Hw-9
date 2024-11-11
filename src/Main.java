@@ -7,10 +7,12 @@ public class Main {
 
         int [] payment = {5000,12000,50000,19000,130000};
         int sum = 0;
-        for (int index = 0; index < payment.length; index++){
-            sum = sum + payment[index];
-            System.out.println(" Сумма трат за месяц составила " + sum + " рублей");
-        }
+        for (int index = 0; index < payment.length; index++)
+            sum = sum + payment[index];{
+
+            System.out.println(" Сумма трат за месяц составила " + sum + " рублей");}
+
+
         System.out.println( );
 
         System.out.println( "//Task#2");
